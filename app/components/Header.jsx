@@ -30,15 +30,23 @@ const Header = () => {
          className='max-w-2xl mx-auto font-Ovo'>I am a frontend developer skilled in HTML, CSS, JavaScript, React, and Tailwind CSS, passionate about creating responsive and user-friendly interfaces.</motion.p>
 
         <div className='flex flex-col md:flex-row items-center gap-4 mt-4'>
-            <a href="#contact" 
+            <motion.a 
+            initial={{y:30,opacity:0}}
+            whileInView={{y:0,opacity:1}} 
+            transition={{duration:0.6, delay:1}}
+            href="#contact" 
             className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'>Contact Me
             <Image src={assets.right_arrow_white} alt='' className=' w-4'/>
-            </a>
+            </motion.a>
 
-            <a href="/sample_resume.pdf" download 
+            <motion.a 
+            initial={{y:30,opacity:0}}
+            whileInView={{y:0,opacity:1}} 
+            transition={{duration:0.6, delay:1.2}}
+            href="/sample_resume.pdf" download 
             className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'>My resume
             <Image src={assets.download_icon} alt='' className=' w-4'/>
-            </a>
+            </motion.a>
         </div>
     </div>
   )
