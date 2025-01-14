@@ -13,8 +13,21 @@ const Header = () => {
         >
             <Image src={assets.profile_img} alt='' className='rounded-full w-32'/>
         </motion.div>
-        <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>Hi! I'm Namrata Shrestha  <Image src={assets.hand_icon} alt='' className='w-6'/></h3>
-        <h1 className='text-3xl sm:text-5xl lg:text-[60px] font-Ovo'>Frontend Web Developer</h1>
+        <motion.h3 
+        initial={{y:-20, opacity:0}}
+        whileInView={{y:0, opacity:1}} 
+        transition={{duration:0.6, delay:0.3}}
+        className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>Hi! I'm Namrata Shrestha  <Image src={assets.hand_icon} alt='' className='w-6'/></motion.h3>
+        <motion.h1
+        initial={{y:-30, opacity:0}}
+        whileInView={{y:0, opacity:1}} 
+        transition={{duration:0.8, delay:0.5}}
+         className='text-3xl sm:text-5xl lg:text-[60px] font-Ovo'>Frontend Web Developer</motion.h1>
+         <motion.p 
+         initial={{opacity:0}}
+         whileInView={{opacity:1}} 
+         transition={{duration:0.6, delay:0.7}}
+         className='max-w-2xl mx-auto font-Ovo'>I am a frontend developer skilled in HTML, CSS, JavaScript, React, and Tailwind CSS, passionate about creating responsive and user-friendly interfaces.</motion.p>
 
         <div className='flex flex-col md:flex-row items-center gap-4 mt-4'>
             <a href="#contact" 
