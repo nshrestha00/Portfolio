@@ -27,7 +27,7 @@ const Header = () => {
          initial={{opacity:0}}
          whileInView={{opacity:1}} 
          transition={{duration:0.6, delay:0.7}}
-         className='max-w-2xl mx-auto font-Ovo'>I am a frontend developer skilled in HTML, CSS, JavaScript, React, and Tailwind CSS, passionate about creating responsive and user-friendly interfaces.</motion.p>
+         className='max-w-2xl mx-auto font-Ovo'>Passionate Frontend Developer crafting responsive, user-friendly interfaces with modern web technologies.</motion.p>
 
         <div className='flex flex-col md:flex-row items-center gap-4 mt-4'>
             <motion.a 
