@@ -73,12 +73,12 @@ export const workData = [
         bgImage: '/work-1.png',
         link:'https://ecommerce-online-clothing.vercel.app/',
     },
-    {
-        title: 'Mern stack project',
-        description: 'Food Delivery Website',
-        bgImage: '/work-2.png',
-        link:'',
-    },
+    // {
+    //     title: 'Food Delivery Website',
+    //     description: 'An online platform for quick food delivery.',
+    //     bgImage: '/work-2.png',
+    //     link:'',
+    // },
 ]
 
 export const infoList = [
