@@ -76,14 +76,16 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Mern stack project',
-        description: 'Online Clothing Store',
+        title: 'Online Clothing Store',
+        description: 'An e-commerce platform for modern clothing.',
         bgImage: '/work-1.png',
+        link:'https://ecommerce-online-clothing.vercel.app/',
     },
     {
         title: 'Mern stack project',
         description: 'Food Delivery Website',
         bgImage: '/work-2.png',
+        link:'',
     },
 ]
 
