@@ -47,16 +47,16 @@ const Work = (isDarkMode) => {
   >
     {workData.map((project, index) => (
       <motion.a
-        href={project.link} // Add link to the project
-        target="_blank" // Opens the link in a new tab
-        rel="noopener noreferrer" // Security feature for external links
+        href={project.link} 
+        target="_blank" 
+        rel="noopener noreferrer" 
         key={index}
         whileHover={{ scale: 1.05 }}
         transition={{ duration: 0.3 }}
         className="relative cursor-pointer group rounded-lg overflow-hidden"
         style={{
-          width: "100%", // Ensure container stays proportional
-          height: "250px", // Control image height (adjust as needed)
+          width: "100%", 
+          height: "250px", 
         }}
       >
         {/* Image Background */}
