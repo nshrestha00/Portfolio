@@ -40,7 +40,7 @@ const About = ({isDarkMode}) => {
             transition={{duration:0.6, delay:0.8}}
             className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo'>
-                I am a frontend developer skilled in HTML, CSS, JavaScript, React, and Tailwind CSS, passionate about creating responsive and user-friendly interfaces. Eager to apply my skills and contribute to impactful web development projects.</p>
+                I am a frontend developer skilled in HTML, CSS, JavaScript, React, Angular and Tailwind CSS, passionate about creating responsive and user-friendly interfaces. Eager to apply my skills and contribute to impactful web development projects.</p>
 
                 <motion.ul 
                 initial={{opacity:0}}

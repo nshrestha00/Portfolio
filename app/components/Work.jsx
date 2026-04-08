@@ -43,7 +43,7 @@ const Work = (isDarkMode) => {
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
     transition={{ delay: 0.9, duration: 0.6 }}
-    className={`grid ${workData.length === 1 ? "grid-cols-1" : "grid-cols-2 md:grid-cols-3"} gap-4 my-10 dark:text-black justify-center`}
+    className={`grid ${workData.length === 1 ? "grid-cols-1" : "grid-cols-1 md:grid-cols-2"} gap-4 my-10 dark:text-black justify-center`}
 
   >
     {workData.map((project, index) => (

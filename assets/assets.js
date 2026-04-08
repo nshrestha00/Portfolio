@@ -73,12 +73,12 @@ export const workData = [
         bgImage: '/work-1.png',
         link:'https://ecommerce-online-clothing.vercel.app/',
     },
-    // {
-    //     title: 'Food Delivery Website',
-    //     description: 'An online platform for quick food delivery.',
-    //     bgImage: '/work-2.png',
-    //     link:'',
-    // },
+    {
+        title: 'Weather Forecast Dashboard',
+        description: 'A real-time weather forecasting application.',
+        bgImage: '/work-2.jpg',
+        link:'https://weather-forecast-hazel-ten.vercel.app/',
+    },
 ]
 
 export const infoList = [
